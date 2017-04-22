@@ -12,5 +12,8 @@
     "rest"
   ],
   "author": "Jens Jaeger",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.1"
+  }
 }
