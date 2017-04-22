@@ -5,7 +5,7 @@ const httpPort = 3000;
 
 const app = connect();
 
-app.use(serveStatic("../static", {"index": "index.json"}));
+app.use(serveStatic("static", {"index": "index.json"}));
 
 app.use((req, res) => {
     res.end("Hello from connect!\n");
