@@ -4,7 +4,8 @@
   "description": "simple rest service in node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
+    "build": "tsc",
+    "serve": "node bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +18,10 @@
   "dependencies": {
     "connect": "^3.6.1",
     "serve-static": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/connect": "^3.4.30",
+    "@types/node": "^7.0.13",
+    "typescript": "^2.2.2"
   }
 }
