@@ -1,0 +1,16 @@
+{
+  "name": "rest-service",
+  "version": "1.0.0",
+  "description": "simple rest service in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "rest"
+  ],
+  "author": "Jens Jaeger",
+  "license": "ISC"
+}
