@@ -15,6 +15,7 @@
   "author": "Jens Jaeger",
   "license": "ISC",
   "dependencies": {
-    "connect": "^3.6.1"
+    "connect": "^3.6.1",
+    "serve-static": "^1.12.1"
   }
 }
